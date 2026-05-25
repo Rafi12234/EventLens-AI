@@ -89,7 +89,7 @@ query = st.text_input(
 )
 
 if query:
-    query_vector = encode_text(model, tokenizer, device, query)
+    query_vector = encode_text(model,  tokenizer, device, query)
 
     results = table.search(query_vector).limit(top_k).to_pandas()
 
