@@ -103,7 +103,7 @@ if query:
         filename = row["filename"]
         distance = row.get("_distance", None)
 
-        col = columns[i % 4]
+        col = columns[i  % 4]
 
         with col:
             if Path(image_path).exists():
