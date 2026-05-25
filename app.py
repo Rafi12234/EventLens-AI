@@ -10,7 +10,7 @@ import torch
 from PIL import Image
 
 
-DB_PATH = "./event_lancedb"
+DB_PATH =  "./event_lancedb"
 TABLE_NAME = "event_images"
 
 
