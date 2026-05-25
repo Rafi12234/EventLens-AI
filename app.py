@@ -80,7 +80,7 @@ except Exception:
     st.stop()
 
 st.sidebar.header("Search Settings")
-top_k = st.sidebar.slider("Number of results", 5, 100, 24)
+top_k = st.sidebar.slider("Number of results",  5, 100, 24)
 show_paths = st.sidebar.checkbox("Show full image paths", value=False)
 
 query = st.text_input(
