@@ -18,7 +18,7 @@ TABLE_NAME = "event_images"
 def load_model():
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    model_name =  "ViT-B-32"
+    model_name =  "ViT-B-32 "
     pretrained = "laion2b_s34b_b79k"
 
     model, _, preprocess = open_clip.create_model_and_transforms(
