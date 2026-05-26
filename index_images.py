@@ -92,7 +92,7 @@ def main():
         "--batch-size",
         type=int,
         default=32,
-        help="Batch size. Use 8 or 16 if you do not have GPU."
+        help="Batch size. Use 8  or 16 if you do not have GPU."
     )
     args = parser.parse_args()
 
