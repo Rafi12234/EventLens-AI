@@ -114,7 +114,7 @@ def main():
     table = None
     first_batch = True
 
-    for batch in tqdm(list(chunks(image_paths, args.batch_size)), desc="Indexing images"):
+    for batch in tqdm(list(chunks(image_paths,  args.batch_size)), desc="Indexing images"):
         valid_paths, vectors = encode_image_batch(model, preprocess, device, batch)
 
         records = []
