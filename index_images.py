@@ -141,7 +141,7 @@ def main():
                 data=records,
                 mode="overwrite"
             )
-            first_batch = False
+            first_batch =  False
         else:
             table.add(records)
 
