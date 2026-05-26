@@ -153,7 +153,7 @@ def main():
             print(f"Index creation skipped or failed: {e}")
 
     print("Done.")
-    print(f"Local LanceDB saved at: {os.path.abspath(args.db_path)}")
+    print(f"Local  LanceDB saved at: {os.path.abspath(args.db_path)}")
 
 
 if __name__ == "__main__":
