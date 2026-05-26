@@ -32,7 +32,7 @@ def load_model():
         model_name,
         pretrained=pretrained
     )
-    tokenizer = open_clip.get_tokenizer(model_name)
+    tokenizer = open_clip.get_tokenizer (model_name)
 
     model = model.to(device)
     model.eval()
