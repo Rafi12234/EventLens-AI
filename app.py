@@ -50,7 +50,7 @@ def encode_text(model, tokenizer, device, text):
 
 
 def open_file(path):
-    system = platform.system()
+    system =  platform.system()
 
     try:
         if system == "Windows":
