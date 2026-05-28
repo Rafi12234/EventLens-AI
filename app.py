@@ -96,7 +96,7 @@ if query:
     st.subheader(f"Results for: {query}")
     st.write(f"Found {len(results)} results")
 
-    columns = st.columns(4)
+    columns = st.columns( 4)
 
     for i, row in results.iterrows():
         image_path = row["path"]
