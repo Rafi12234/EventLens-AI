@@ -101,7 +101,7 @@ if query:
     for i, row in results.iterrows():
         image_path = row["path"]
         filename = row["filename"]
-        distance = row.get("_distance", None)
+        distance = row.get("_distance",  None)
 
         col = columns[i  % 4]
 
