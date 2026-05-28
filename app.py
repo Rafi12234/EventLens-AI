@@ -5,7 +5,7 @@ from pathlib import Path
 
 import lancedb
 import open_clip
-import streamlit as st
+import streamlit as  st
 import torch
 from PIL import Image
 
