@@ -55,7 +55,7 @@ def open_file(path):
     try:
         if system == "Windows":
             os.startfile(path)
-        elif system == "Darwin":
+        elif system ==  "Darwin":
             subprocess.run(["open", path], check=False)
         else:
             subprocess.run(["xdg-open", path], check=False)
