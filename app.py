@@ -64,7 +64,7 @@ def open_file(path):
 
 
 st.set_page_config(
-    page_title="Local Event Decoration AI Search",
+    page_title="Local Event  Decoration AI Search",
     layout="wide"
 )
 
