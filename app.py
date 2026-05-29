@@ -16,7 +16,7 @@ TABLE_NAME = "event_images"
 
 @st.cache_resource
 def load_model():
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    device = "cuda" if  torch.cuda.is_available() else "cpu"
 
     model_name =  "ViT-B-32 "
     pretrained = "laion2b_s34b_b79k"
